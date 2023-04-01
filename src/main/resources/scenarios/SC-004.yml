@@ -11,6 +11,10 @@ context:
     seed: 114514
     env: NETHER
     hardcore: true
+  actors:
+  - name: Actor001
+    gamemode: SURVIVAL
+    displayName: §c§lActor001
 
 scenario:
   - type: execute
