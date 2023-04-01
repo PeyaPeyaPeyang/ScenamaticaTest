@@ -1,0 +1,26 @@
+scenamatica: v1.0.0
+
+name: sc004
+description: L3C1 in scenarios.xlsx
+on:
+  - type: manual_dispatch
+
+context:
+  stage:
+    type: NORMAL
+    seed: 114514
+    env: NETHER
+    hardcore: true
+
+scenario:
+  - type: execute
+    action: message_send
+    with:
+      content: "Hello, World!"
+      recipient: Actor001
+  - type: expect
+    action: message_send
+    with:
+      content: "Hello, World!"
+      recipient: Actor001
+

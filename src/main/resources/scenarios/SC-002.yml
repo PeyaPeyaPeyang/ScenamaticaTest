@@ -1,0 +1,25 @@
+scenamatica: v1.0.0
+
+name: sc002
+description: L2C1 in scenarios.xlsx
+on:
+  - type: manual_dispatch
+
+context:
+  actors:
+    - name: Actor001
+      gamemode: SURVIVAL
+      displayName: §c§lActor001
+
+scenario:
+  - type: execute
+    action: message_send
+    with:
+      content: "Hello, World!"
+      recipient: Actor001
+  - type: expect
+    action: message_send
+    with:
+      content: "Hello, World!"
+      recipient: Actor001
+
