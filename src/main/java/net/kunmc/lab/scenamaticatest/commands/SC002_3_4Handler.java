@@ -16,7 +16,7 @@ public class SC002_3_4Handler implements CommandExecutor
         if ((actor = Bukkit.getPlayer("Actor001")) == null)
             throw new IllegalStateException("Actor001 is not found.");
 
-        actor.sendMessage("Hello, World!");
+        actor.sendMessage("Hello, World, too!");
         return true;
     }
 }

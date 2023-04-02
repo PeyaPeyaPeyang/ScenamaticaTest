@@ -22,6 +22,6 @@ scenario:
   - type: expect
     action: message_send
     with:
-      content: "Hello, World!"
+      content: "Hello, World, too!"
       recipient: Actor001
 
