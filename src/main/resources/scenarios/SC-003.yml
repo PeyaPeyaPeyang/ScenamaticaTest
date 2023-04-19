@@ -19,6 +19,10 @@ scenario:
     with:
       content: "Hello, World!"
       recipient: Actor001
+  - type: execute
+    action: command_dispatch
+    with:
+      command: sc002_3_4
   - type: expect
     action: message_send
     with:

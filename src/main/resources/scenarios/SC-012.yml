@@ -1,7 +1,7 @@
 scenamatica: v1.0.0
 
-name: sc005
-description: L4C1 in scenarios.xlsx
+name: sc012
+description: L5C1 in scenarios.xlsx
 on:
   - type: manual_dispatch
 
@@ -26,3 +26,8 @@ scenario:
     with:
       recipient: Actor001
       content: "The player died!"
+  - type: require
+    action: player_death
+    with:
+      target: Actor001
+

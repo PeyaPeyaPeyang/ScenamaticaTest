@@ -5,7 +5,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
 
-public class SC005Handler implements Listener
+public class SC011Handler implements Listener
 {
     @EventHandler
     public void onDeath(PlayerDeathEvent e)

@@ -1,7 +1,7 @@
 scenamatica: v1.0.0
 
-name: sc007
-description: L6C1 in scenarios.xlsx
+name: sc011
+description: L4C1 in scenarios.xlsx
 on:
   - type: manual_dispatch
 
@@ -17,13 +17,12 @@ context:
 
 scenario:
   - type: execute
-    action: command_dispatch
+    action: player_death
     with:
-      command: say Hello World!
-      sender: Actor001
+      target: Actor001
+      killer: Actor002
   - type: expect
     action: message_send
     with:
-      content: "[Actor001] Hello World!"
-      recipient: Actor002
-
+      recipient: Actor001
+      content: "The player died!"
