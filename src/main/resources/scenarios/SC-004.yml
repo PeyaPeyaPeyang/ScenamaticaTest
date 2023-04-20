@@ -1,7 +1,7 @@
 scenamatica: v1.0.0
 
 name: sc004
-description: L3C1 in scenarios.xlsx
+description: L1C4 in scenarios.xlsx
 on:
   - type: manual_dispatch
 

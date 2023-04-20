@@ -1,7 +1,7 @@
 scenamatica: v1.0.0
 
 name: sc003
-description: L2C2 in scenarios.xlsx
+description: L1C3 in scenarios.xlsx
 on:
   - type: manual_dispatch
 
