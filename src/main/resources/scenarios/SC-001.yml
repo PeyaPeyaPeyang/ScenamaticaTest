@@ -1,9 +1,0 @@
-#file: noinspection YAMLSchemaValidation
-scenamatica: v1.0.0
-
-name: sc001
-description: L1C1 in scenarios.xlsx
-on:
-  - type: manual_dispatch
-
-scenario: []

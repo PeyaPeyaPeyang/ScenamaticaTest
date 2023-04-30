@@ -1,0 +1,23 @@
+scenamatica: 0.5.0
+
+name: Player death
+description: Player death
+
+on:
+  - type: on_load
+  - type: manual_dispatch
+
+context:
+  actors:
+    - name: Peyang
+
+scenario:
+  - type: execute
+    action: player_death
+    with:
+      target: Peyang
+  - type: expect
+    action: message_send
+    with:
+      recipient: Peyang
+      content: "OOPS! You died!"
