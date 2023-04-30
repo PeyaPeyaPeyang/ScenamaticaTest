@@ -12,6 +12,7 @@ jobs:
         with:
           java-version: "11"
           cache: "maven"
+          distribution: "zulu"
       - name: "Build"
         run: mvn -B package --file pom.xml
       - name: "Run Scenamatica tests"
@@ -19,4 +20,3 @@ jobs:
         with:
           scenamatica: 0.5.0
           plugin: target/ScenamaticaTest-1.0.0.jar
-
