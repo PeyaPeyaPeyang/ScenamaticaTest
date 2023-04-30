@@ -15,3 +15,8 @@ jobs:
           distribution: "zulu"
       - name: "Build"
         run: mvn -B package --file pom.xml
+      - name: "Run Scenamatica tests"
+        uses: teamkun/scenamatica-action@main
+        with:
+          scenamatica: 0.5.0
+          plugin: target/ScenamaticaTest-1.0.0.jar
