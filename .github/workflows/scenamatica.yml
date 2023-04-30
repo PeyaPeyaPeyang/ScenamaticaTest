@@ -18,5 +18,5 @@ jobs:
       - name: "Run Scenamatica tests"
         uses: teamkun/scenamatica-action@main
         with:
-          scenamatica: 0.5.1
+          scenamatica: 0.5.2
           plugin: target/ScenamaticaTest-1.0.0.jar
