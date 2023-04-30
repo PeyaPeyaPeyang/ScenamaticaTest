@@ -1,0 +1,22 @@
+name: "Scenamatica Scenario Test"
+
+on:
+  push:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v2
+        with:
+          java-version: "11"
+          cache: "maven"
+      - name: "Build"
+        run: mvn -B package --file pom.xml
+      - name: "Run Scenamatica tests"
+        uses: teamkun/scenamatica-action@main
+        with:
+          scenamatica: 0.5.0
+          plugin: target/ScenamaticaTest-1.0.0.jar
+
