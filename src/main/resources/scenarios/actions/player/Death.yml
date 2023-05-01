@@ -26,5 +26,5 @@ scenario:
   - type: require
     action: player_death
     with:
-      target: Actor001
+      target: Actor002
 

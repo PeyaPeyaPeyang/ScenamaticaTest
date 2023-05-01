@@ -38,4 +38,4 @@ scenario:
       target: Actor001
       slot: 1
       item:
-        type: DIAMOND_PICKAXE
+        type: DIAMOND_AXE
