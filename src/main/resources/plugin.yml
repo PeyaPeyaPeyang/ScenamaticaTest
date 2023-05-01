@@ -1,5 +1,5 @@
 name: ScenamaticaTest
-version: '${project.version}'
+version: '0.5.3'
 main: net.kunmc.lab.scenamaticatest.ScenamaticaTest
 api-version: 1.16
 load: STARTUP

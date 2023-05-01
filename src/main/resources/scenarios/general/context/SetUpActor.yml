@@ -1,4 +1,4 @@
-scenamatica: ${project.version}
+scenamatica: 0.5.3
 
 name: general_context_actor
 description: Testing actor generation works or not

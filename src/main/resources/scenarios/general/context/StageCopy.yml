@@ -1,4 +1,4 @@
-scenamatica: ${project.version}
+scenamatica: 0.5.3
 
 name: general_context_stage_copy
 description: Testing stage copy works or not

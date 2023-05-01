@@ -1,4 +1,4 @@
-scenamatica: ${project.version}
+scenamatica: 0.5.3
 
 name: actions_chat_message_send
 description: Testing message_send action works or not

@@ -1,4 +1,4 @@
-scenamatica: ${project.version}
+scenamatica: 0.5.3
 
 name: actions_server_plugin_disable
 description: L6C1 in scenarios.xlsx

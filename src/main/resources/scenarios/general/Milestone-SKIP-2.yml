@@ -1,4 +1,4 @@
-scenamatica: ${project.version}
+scenamatica: 0.5.3
 
 name: general_milestone_sk_2
 description: Testing milestone action test skips or not

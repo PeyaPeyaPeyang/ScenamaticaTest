@@ -1,4 +1,4 @@
-scenamatica: ${project.version}
+scenamatica: 0.5.3
 
 name: actions_player_animation
 description: Testing player_animation action works or not
