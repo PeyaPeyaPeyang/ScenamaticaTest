@@ -3,6 +3,7 @@ scenamatica: 0.5.3
 name: actions_player_hotbar
 description: Testing PlayerHotbarAction works or not
 on:
+  - type: on_load
   - type: manual_dispatch
 
 context:

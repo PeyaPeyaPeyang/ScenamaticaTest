@@ -3,6 +3,7 @@ scenamatica: 0.5.3
 name: general_engine
 description: Testing scenario engine works or not
 on:
+  - type: on_load
   - type: manual_dispatch
 
 scenario: []

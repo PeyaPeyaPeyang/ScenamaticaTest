@@ -3,6 +3,7 @@ scenamatica: 0.5.3
 name: general_milestone_sk_2
 description: Testing milestone action test skips or not
 on:
+  - type: on_load
   - type: manual_dispatch
     runif:
       action: milestone
