@@ -4,6 +4,10 @@ name: general_milestone_sk_2
 description: Testing milestone action test skips or not
 on:
   - type: on_load
+    runif:
+      action: milestone
+      with:
+        name: hogehoge  # The milestone is not reached, so this scenario will be skipped.
   - type: manual_dispatch
     runif:
       action: milestone
