@@ -1,8 +1,6 @@
 name: "Scenamatica Scenario Test"
 
 on:
-  - type: on_load
-  - type: on_load
   push:
 
 jobs:
