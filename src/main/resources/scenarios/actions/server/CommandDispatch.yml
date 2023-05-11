@@ -25,6 +25,6 @@ scenario:
   - type: expect
     action: message
     with:
-      content: "[Actor001] Hello World!"
+      message: "[Actor001] Hello World!"
       recipient: Actor002
 
