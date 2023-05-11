@@ -1,7 +1,7 @@
 name: "Scenamatica Scenario Test"
 
 on:
-  push:
+  pull_request:
 
 jobs:
   run:
@@ -16,7 +16,6 @@ jobs:
       - name: "Build"
         run: mvn -B package --file pom.xml
       - name: "Run Scenamatica tests"
-        uses: teamkun/scenamatica-action@main
+        uses: teamkun/scenamatica-action@feature/pull-request
         with:
-          scenamatica: 0.5.7
           plugin: target/ScenamaticaTest-1.0.0.jar
