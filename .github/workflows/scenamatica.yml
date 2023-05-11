@@ -2,7 +2,6 @@ name: "Scenamatica Scenario Test"
 
 on:
   pull_request:
-  push:
 
 
 jobs:
