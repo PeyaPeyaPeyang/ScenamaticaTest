@@ -1,7 +1,7 @@
 scenamatica: 0.5.3
 
-name: actions_chat_message_send
-description: Testing message_send action works or not
+name: actions_chat_message
+description: Testing message action works or not
 on:
   - type: on_load
   - type: manual_dispatch
@@ -12,12 +12,12 @@ context:
 
 scenario:
   - type: execute
-    action: message_send
+    action: message
     with:
-      content: "Hello, World!"
+      message: "Hello, World!"
       recipient: Actor001
   - type: expect
-    action: message_send
+    action: message
     with:
-      content: "Hello, World!"
+      message: "Hello, World!"
       recipient: Actor001
