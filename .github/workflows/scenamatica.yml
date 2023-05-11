@@ -3,6 +3,8 @@ name: "Scenamatica Scenario Test"
 on:
   pull_request:
 
+permissions:
+  pull-requests: write
 
 jobs:
   run:
